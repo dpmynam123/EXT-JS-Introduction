@@ -6,7 +6,7 @@ Ext.define('EmployeeApp.store.EmployeeStore', {
     
     proxy: {
         type: 'ajax',
-        url: 'http://localhost:8080/api/employees',  // Your Spring Boot API
+        url: 'http://localhost:8080/api/employees', 
         reader: {
             type: 'json',
             rootProperty: 'data'
