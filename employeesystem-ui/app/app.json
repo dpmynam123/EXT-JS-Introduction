@@ -1,0 +1,12 @@
+{
+    "name": "EmployeeApp",
+    "appFolder": "app",
+    "requires": [
+        "Ext.grid.Panel",
+        "Ext.form.Panel",
+        "Ext.data.Store"
+    ],
+    "launch": function() {
+        Ext.create('EmployeeApp.view.main.Main');
+    }
+}
