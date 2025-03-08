@@ -4,7 +4,7 @@ Ext.define('EmployeeApp.view.EmployeeGrid', {
     
     title: 'Employee List',
     store: {
-        type: 'employeestore'  // Using the store we defined earlier
+        type: 'employeestore'  
     },
     
     columns: [
